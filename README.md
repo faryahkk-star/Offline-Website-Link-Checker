@@ -9,7 +9,7 @@ class LinkParser(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         if tag != "a":
-            return0
+            return
 
         for key, value in attrs:
             if key == "href" and value:
