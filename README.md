@@ -1,4 +1,4 @@
-from pathlib import Path0
+from pathlib import Path
 from html.parser import HTMLParser
 
 
